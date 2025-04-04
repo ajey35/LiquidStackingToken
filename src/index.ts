@@ -4,8 +4,6 @@ const app = express()
 
 app.use(express.json())
 
-let SolanaPrice = 1
-
 let KrishTokenValue = 1
 
 interface SolanaTrack{
